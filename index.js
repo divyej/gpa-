@@ -78,6 +78,7 @@ totalgrades*=3
  console.log(totalgrades)
   gpa= totalgrades/20
  let perc=(total/900)*100
+ perc=perc.toFixed(2)
   console.log(gpa)
   console.log(perc)
   if(gpa >= 8){
